@@ -1,6 +1,4 @@
-ARG HASURA_ENGINE_VERSION="v2.2.0"
-
-FROM hasura/graphql-engine:${HASURA_ENGINE_VERSION}
+FROM hasura/graphql-engine:v2.2.0
 
 CMD graphql-engine \
     serve \
